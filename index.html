@@ -14,6 +14,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="./css/reset.css" />
       <link rel="stylesheet" href="./css/variable.css" />
       <link rel="stylesheet" href="./css/header.css" />
       <link rel="stylesheet" href="./css/footer.css" />
@@ -393,7 +394,7 @@
                   </ul>
                </div>
                <div class="footer-box-links">
-                  <p class="join">Підпишіться на розсилку</p>
+                  <p class="join joinus">Підпишіться на розсилку</p>
                   <form class="mail">
                      <input type="email" name="mail" class="mail-input" placeholder=" " />
                      <label class="mail-label">E-mail</label>
@@ -417,8 +418,8 @@
                </button>
                <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
                <label class="modal-label">
-                  Ім'я
-                  <div class="fieldset">
+                  <span class="label-name" >Ім'я</span> 
+                  <div class="input-wrapper">
                      <input type="text" class="modal-input" />
                      <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" class="svg-modal">
                         <path
@@ -429,8 +430,8 @@
                </label>
 
                <label class="modal-label">
-                  Телефон
-                  <div class="fieldset">
+                  <span class="label-name" >Телефон</span>
+                  <div class="input-wrapper">
                      <input type="tel" class="modal-input" />
                      <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" class="svg-modal">
                         <path
@@ -441,8 +442,8 @@
                </label>
 
                <label class="modal-label">
-                  Пошта
-                  <div class="fieldset">
+                  <span class="label-name" >Пошта</span>
+                  <div class="input-wrapper">
                      <input type="email" class="modal-input" />
                      <svg width="16" height="12" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg" class="svg-modal">
                         <path
@@ -453,12 +454,11 @@
                </label>
 
                <label class="modal-label">
-                  Коментар
-                  <input type="text" class="modal-input-comm" placeholder="Введіть текст" />
+                  <span class="label-name" >Коментар</span>
+                  <textarea type="text" class="textaria-modal" placeholder="Введіть текст"></textarea>
                </label>
-
                <label class="agreement">
-                  <input type="checkbox" class="checkbox" />
+                  <input type="checkbox" class="visually-hidden" />
                   <span class="checkbox-icon"></span>
                   Погоджуюся з розсилкою та приймаю
                   <a href="" class="terms">Умови договору</a>

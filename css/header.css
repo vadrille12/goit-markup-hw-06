@@ -33,7 +33,7 @@
 .menu-nav {
    list-style: none;
    padding: 0;
-   margin: 0;
+
    display: inline-flex;
    justify-content: space-between;
    gap: 50px;
@@ -106,7 +106,7 @@
    justify-content: space-between;
    gap: 30px;
    padding: 0;
-   margin: 0;
+
 }
 
 .icon {
